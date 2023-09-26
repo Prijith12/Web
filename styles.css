@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Basic styling for the navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6243dd; /* Background color of the navbar */
+    overflow: hidden;
+}
+
+/* Style for individual navbar items */
+ul.navbar li {
+    float: left;
+}
+
+/* Style for navbar links */
+ul.navbar li a {
+    display: block;
+    color: white; /* Text color of the links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+ul.navbar li a:hover {
+    background-color: #555; /* Background color on hover */
+}
